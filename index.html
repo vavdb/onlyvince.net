@@ -4,7 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OnlyVince — Waarom Genoegen Nemen Met Minder?</title>
-  <meta name="description" content="Vince. 46. Developer. Papa. Licht ontspoord. Accepteert nu sollicitaties.">
+  <meta name="description" content="Vincent. Developer. Papa. Licht ontspoord. Accepteert nu sollicitaties.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="OnlyVince — Waarom Genoegen Nemen Met Minder?">
+  <meta property="og:description" content="De premium vriendje-ervaring. CTO, papa, emotioneel beschikbaar. Swipe right is gratis.">
+  <meta property="og:image" content="https://onlyvince.net/assets/profile.jpg">
+  <meta property="og:url" content="https://onlyvince.net/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="OnlyVince — Waarom Genoegen Nemen Met Minder?">
+  <meta name="twitter:description" content="De premium vriendje-ervaring. CTO, papa, emotioneel beschikbaar. Swipe right is gratis.">
+  <meta name="twitter:image" content="https://onlyvince.net/assets/profile.jpg">
+
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
 </head>
@@ -41,8 +55,8 @@
       </div>
       <div class="profile-handle">@vavdb</div>
       <div class="profile-bio">
-        46 &middot; Urmond, Limburg 📍 &middot; Papa van 2 (+1 beagle) &middot; CTO overdag, overdenker 's nachts &middot; Fixt je Wi-Fi EN je standaarden voor emotionele beschikbaarheid &middot; Fresh start, factory reset complete ✨
-        <span class="fine-print">*1.74m — voor als dat uitmaakt.</span>
+        46 &middot; Urmond, Limburg 📍 &middot; Papa van 2 (+1 beagle) &middot; CTO overdag, overdenker 's nachts &middot; Fixt je Wi-Fi EN je standaarden voor emotionele beschikbaarheid &middot; Emotioneel beschikbaar, fysiek ook niet verkeerd
+        <span class="fine-print">1.74m — voor als dat uitmaakt.</span>
       </div>
 
       <!-- Dating Stats -->
@@ -81,8 +95,8 @@
     <!-- Tabs -->
     <div class="tabs">
       <div class="tab active">De Pitch</div>
-      <div class="tab">Bewijs</div>
-      <div class="tab">Reviews</div>
+      <div class="tab" onclick="showUnlock('bewijs')">Bewijs</div>
+      <div class="tab" onclick="showUnlock('reviews')">Reviews</div>
     </div>
 
     <!-- Feed -->
@@ -105,7 +119,7 @@
           <span class="post-label free">Gratis</span>
         </div>
         <div class="post-body">
-          <p class="post-text">Welkom bij OnlyVince 🔥 Dit is mijn dating-profiel, maar dan maar dan met meer moeite en zonder woordlimiet. Ik ben Vince — CTO, vader, en de beste versie van mezelf tot nu toe. Bewust single, bewust bezig, en klaar voor iets moois. De buitenkant zegt "directe Nederlander." De binnenkant wil gewoon met z'n hoofd op je schoot op de bank liggen terwijl jij TV kijkt. Swipe right is gratis. Wat daarna komt... dat is premium content 😏</p>
+          <p class="post-text">Welkom bij OnlyVince 🔥 Dit is mijn dating-profiel, maar dan met meer moeite en zonder woordlimiet. Ik ben Vincent — CTO, vader, en de beste versie van mezelf tot nu toe. Bewust single, bewust bezig, en klaar voor iets moois. De buitenkant zegt "directe Nederlander." De binnenkant wil gewoon met z'n hoofd op je schoot op de bank liggen terwijl jij TV kijkt. Swipe right is gratis. Wat daarna komt... dat is premium content 😏</p>
         </div>
         <div class="post-actions">
           <span class="post-action" onclick="showToast('❤️ Dit vind je leuk')">♡ 847</span>
@@ -160,7 +174,7 @@
         <div class="locked-overlay">
           <div class="lock-icon">🔒</div>
           <div class="lock-text">De Zachte Kant — Kijkwijzer Aangeraden 🥺</div>
-          <button class="unlock-btn" onclick="window.open('https://wa.me/31612960436?text=Ik%20wil%20de%20premium%20content%20ontgrendelen%20%F0%9F%94%93','_blank')">Ontgrendel met een eerste date</button>
+          <button class="unlock-btn" onclick="showUnlock('premium')">Ontgrendel met een eerste date</button>
         </div>
         <div class="post-actions">
           <span class="post-action">♡ 2.4K</span>
@@ -240,7 +254,7 @@
         <div class="locked-overlay">
           <div class="lock-icon">🔒</div>
           <div class="lock-text">Wat Er Na De Eerste Date Gebeurt 👀</div>
-          <button class="unlock-btn" onclick="window.open('https://wa.me/31612960436?text=Ik%20wil%20de%20premium%20content%20ontgrendelen%20%F0%9F%94%93','_blank')">Ontgrendel met een eerste date</button>
+          <button class="unlock-btn" onclick="showUnlock('premium')">Ontgrendel met een eerste date</button>
         </div>
         <div class="post-actions">
           <span class="post-action">♡ 1.8K</span>
@@ -270,7 +284,7 @@
         <div class="locked-overlay">
           <div class="lock-icon">🔒</div>
           <div class="lock-text">Het DILF Manifesto</div>
-          <button class="unlock-btn" onclick="window.open('https://wa.me/31612960436?text=Ik%20wil%20de%20premium%20content%20ontgrendelen%20%F0%9F%94%93','_blank')">Ontgrendel met een eerste date</button>
+          <button class="unlock-btn" onclick="showUnlock('premium')">Ontgrendel met een eerste date</button>
         </div>
         <div class="post-actions">
           <span class="post-action">♡ 3.1K</span>
@@ -300,7 +314,7 @@
         <div class="locked-overlay">
           <div class="lock-icon">🔒</div>
           <div class="lock-text">Boyfriend v46.0 — Volledige Changelog 🛏️</div>
-          <button class="unlock-btn" onclick="window.open('https://wa.me/31612960436?text=Ik%20wil%20de%20premium%20content%20ontgrendelen%20%F0%9F%94%93','_blank')">Ontgrendel met een eerste date</button>
+          <button class="unlock-btn" onclick="showUnlock('premium')">Ontgrendel met een eerste date</button>
         </div>
         <div class="post-actions">
           <span class="post-action">♡ 1.5K</span>
@@ -344,10 +358,63 @@
 
   </div>
 
+  <!-- Unlock Modal -->
+  <div class="unlock-modal" id="unlockModal">
+    <div class="unlock-modal-content">
+      <div class="unlock-modal-icon" id="unlockIcon">🔒</div>
+      <div class="unlock-modal-title" id="unlockTitle"></div>
+      <div class="unlock-modal-subtitle" id="unlockSubtitle"></div>
+      <a class="unlock-modal-cta" id="unlockCta" href="#" target="_blank" rel="noopener"></a>
+      <button class="unlock-modal-close" onclick="hideUnlock()">Terug naar profiel</button>
+    </div>
+  </div>
+
   <!-- Toast -->
   <div class="toast" id="toast"></div>
 
   <script>
+    const unlockContent = {
+      premium: {
+        icon: '🔓',
+        title: 'Premium content ontgrendelen?',
+        subtitle: 'Eén berichtje. Geen abonnement, geen creditcard. Gewoon even hoi zeggen.',
+        cta: 'Stuur een berichtje',
+        href: 'https://wa.me/31612960436?text=Ik%20wil%20de%20premium%20content%20ontgrendelen%20%F0%9F%94%93'
+      },
+      bewijs: {
+        icon: '📸',
+        title: 'Bewijs nodig?',
+        subtitle: 'Foto\'s, referenties, en andere bewijsstukken zijn beschikbaar na een eerste gesprek. Kwaliteitscontrole, je begrijpt het.',
+        cta: 'Vraag bewijs aan',
+        href: 'https://wa.me/31612960436?text=Ik%20wil%20graag%20het%20bewijs%20zien%20%F0%9F%91%80'
+      },
+      reviews: {
+        icon: '⭐',
+        title: 'Reviews',
+        subtitle: 'Recensies van exen worden om juridische redenen niet gepubliceerd. Maar je kunt altijd je eigen review schrijven.',
+        cta: 'Schrijf de eerste review',
+        href: 'https://wa.me/31612960436?text=Ik%20wil%20graag%20een%20review%20schrijven%20%E2%AD%90'
+      }
+    };
+
+    function showUnlock(type) {
+      const data = unlockContent[type];
+      document.getElementById('unlockIcon').textContent = data.icon;
+      document.getElementById('unlockTitle').textContent = data.title;
+      document.getElementById('unlockSubtitle').textContent = data.subtitle;
+      document.getElementById('unlockCta').textContent = data.cta;
+      document.getElementById('unlockCta').href = data.href;
+      document.getElementById('unlockModal').classList.add('show');
+    }
+
+    function hideUnlock() {
+      document.getElementById('unlockModal').classList.remove('show');
+    }
+
+    document.getElementById('unlockModal').addEventListener('click', function(e) {
+      if (e.target === this) hideUnlock();
+    });
+
     function showToast(message) {
       const toast = document.getElementById('toast');
       toast.textContent = message;
