@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OnlyVince — Why Settle For Less?</title>
-  <meta name="description" content="Vince. 34. Developer. Dad. Slightly unhinged. Now accepting applications.">
+  <title>OnlyVince — Waarom Genoegen Nemen Met Minder?</title>
+  <meta name="description" content="Vince. 46. Developer. Papa. Licht ontspoord. Accepteert nu sollicitaties.">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
 </head>
@@ -12,7 +12,22 @@
   <div class="page">
 
     <!-- Cover Banner -->
-    <div class="cover"></div>
+    <div class="cover">
+      <svg viewBox="0 0 600 200" preserveAspectRatio="none">
+        <line x1="0" y1="30" x2="600" y2="70" stroke="#fff" stroke-width="1.5" stroke-dasharray="8,6">
+          <animate attributeName="stroke-dashoffset" from="0" to="-28" dur="2s" repeatCount="indefinite"/>
+        </line>
+        <line x1="0" y1="100" x2="600" y2="140" stroke="#fff" stroke-width="1.5" stroke-dasharray="8,6">
+          <animate attributeName="stroke-dashoffset" from="0" to="28" dur="3s" repeatCount="indefinite"/>
+        </line>
+        <line x1="80" y1="0" x2="450" y2="200" stroke="#fff" stroke-width="1" stroke-dasharray="4,8">
+          <animate attributeName="stroke-dashoffset" from="0" to="-24" dur="4s" repeatCount="indefinite"/>
+        </line>
+        <line x1="300" y1="0" x2="600" y2="180" stroke="#fff" stroke-width="0.8" stroke-dasharray="6,10">
+          <animate attributeName="stroke-dashoffset" from="0" to="20" dur="5s" repeatCount="indefinite"/>
+        </line>
+      </svg>
+    </div>
 
     <!-- Profile -->
     <div class="profile">
@@ -20,21 +35,21 @@
 
       <div class="profile-name">
         Vince
-        <svg class="verified" viewBox="0 0 24 24" width="18" height="18" fill="#00AFF0">
+        <svg class="verified" viewBox="0 0 24 24" width="18" height="18" fill="#9b59b6">
           <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
         </svg>
       </div>
       <div class="profile-handle">@vavdb</div>
       <div class="profile-bio">
-        46 &middot; Urmond, Limburg 📍 &middot; Dad of 2 (+1 beagle) &middot; CTO by day, overthinker by night &middot; 186cm* (since apparently that matters) &middot; Will fix your Wi-Fi AND your emotional availability standards &middot; Freshly divorced, fully serviced, factory reset complete ✨ &middot; <small>*profile height, actual height may vary but hovers around 174cm</small>
+        46 &middot; Urmond, Limburg 📍 &middot; Papa van 2 (+1 beagle) &middot; CTO overdag, overdenker 's nachts &middot; Fixt je Wi-Fi EN je standaarden voor emotionele beschikbaarheid &middot; Fresh start, factory reset complete ✨
+        <span class="fine-print">*1.74m — voor als dat uitmaakt.</span>
       </div>
 
       <!-- Dating Stats -->
       <div class="stats">
-        <span>🔥 <strong>9.2</strong>/10</span>
+        <span>🔥 <strong>9.2</strong>/10 <small style="color:#555">(zelf beoordeeld)</small></span>
         <span>💚 <strong>Single</strong></span>
         <span>🚩 <strong>0</strong> Red Flags*</span>
-        <span>🛏️ <strong>Open</strong> to suggestions</span>
       </div>
 
       <!-- Social Links -->
@@ -51,102 +66,106 @@
           <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
           Email
         </a>
+        <a href="https://www.vincability.com/" target="_blank" rel="noopener" class="social-link accent">
+          <svg viewBox="0 0 24 24"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/></svg>
+          Wat ik bouw
+        </a>
       </div>
 
       <!-- Subscribe / Swipe Right -->
-      <a href="https://wa.me/31612960436?text=I%20swiped%20right%20%F0%9F%91%80" class="subscribe-btn" target="_blank" rel="noopener">
-        Swipe Right — Free
+      <a href="https://wa.me/31612960436?text=Ik%20heb%20naar%20rechts%20geswiped%20%F0%9F%91%80" class="subscribe-btn" target="_blank" rel="noopener">
+        Swipe Right — Gratis
       </a>
     </div>
 
     <!-- Tabs -->
     <div class="tabs">
-      <div class="tab active">The Pitch</div>
-      <div class="tab">Evidence</div>
+      <div class="tab active">De Pitch</div>
+      <div class="tab">Bewijs</div>
       <div class="tab">Reviews</div>
     </div>
 
     <!-- Feed -->
     <div class="feed">
 
-      <!-- Pinned Post: The Elevator Pitch -->
+      <!-- Pinned Post: De Pitch -->
       <div class="post pinned">
-        <div class="pinned-badge">📌 Pinned</div>
+        <div class="pinned-badge">📌 Vastgepind</div>
         <div class="post-header">
           <img src="assets/profile.jpg" alt="Vince" class="post-avatar">
           <div class="post-meta">
             <div class="post-author">
               Vince
-              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#00AFF0">
+              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#9b59b6">
                 <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
               </svg>
             </div>
-            <div class="post-time">Just now</div>
+            <div class="post-time">Zojuist</div>
           </div>
-          <span class="post-label free">Free</span>
+          <span class="post-label free">Gratis</span>
         </div>
         <div class="post-body">
-          <p class="post-text">Welcome to OnlyVince 🔥 The premium boyfriend experience you didn't know you needed. I'm Vince — CTO, dad, beautifully wired differently, emotionally available (finally). Think of this as my Tinder profile but with better production value, zero character limit, and actual emotional depth. The exterior says "confrontational Dutch guy." The interior says "just wants to put his head in your lap while you watch TV." Swipe right is free. What happens after... well, that's premium content 😏</p>
+          <p class="post-text">Welkom bij OnlyVince 🔥 Dit is mijn dating-profiel, maar dan maar dan met meer moeite en zonder woordlimiet. Ik ben Vince — CTO, vader, en de beste versie van mezelf tot nu toe. Bewust single, bewust bezig, en klaar voor iets moois. De buitenkant zegt "directe Nederlander." De binnenkant wil gewoon met z'n hoofd op je schoot op de bank liggen terwijl jij TV kijkt. Swipe right is gratis. Wat daarna komt... dat is premium content 😏</p>
         </div>
         <div class="post-actions">
-          <span class="post-action" onclick="showToast('❤️ You liked this')">♡ 847</span>
-          <span class="post-action" onclick="showToast('💬 Slide into the DMs instead')">💬 42</span>
-          <span class="post-action" onclick="showToast('🔗 Share me with your single friends')">↗ Share</span>
+          <span class="post-action" onclick="showToast('❤️ Dit vind je leuk')">♡ 847</span>
+          <span class="post-action" onclick="showToast('💬 Stuur liever een DM')">💬 42</span>
+          <span class="post-action" onclick="showToast('🔗 Deel me met je single vriendinnen')">↗ Deel</span>
         </div>
       </div>
 
-      <!-- Free Post: What I Bring to the Table -->
+      <!-- Free Post: Wat ik meebring -->
       <div class="post">
         <div class="post-header">
           <img src="assets/profile.jpg" alt="Vince" class="post-avatar">
           <div class="post-meta">
             <div class="post-author">
               Vince
-              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#00AFF0">
+              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#9b59b6">
                 <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
               </svg>
             </div>
-            <div class="post-time">2 hours ago</div>
+            <div class="post-time">2 uur geleden</div>
           </div>
-          <span class="post-label free">Free</span>
+          <span class="post-label free">Gratis</span>
         </div>
         <div class="post-body">
-          <p class="post-text">What I bring to the table: ✅ Can cook (and will, shirtless if requested) ✅ Will fix your Wi-Fi AND hold you while you cry — same evening, no extra charge ✅ 186cm* of emotionally available Dutchman (*see terms &amp; conditions) ✅ Comes with a beagle named Puck (non-negotiable) ✅ Remembers your coffee order after hearing it once ✅ Gives massages that aren't just a 30-second shoulder squeeze before trying something else ✅ Actually listens. Like, genuinely. It freaks people out.</p>
+          <p class="post-text">Wat je krijgt als je met mij in zee gaat: iemand die voor je kookt (zonder shirt als je dat wilt), die je Wi-Fi fixt en daarna vraagt hoe het echt met je gaat. Een Nederlander die massages geeft die langer duren dan 30 seconden. Die je koffiebestelling onthoudt na één keer horen. Die echt luistert — niet het soort "luisteren" waarbij hij al aan het wachten is tot hij weer mag praten. En ja, er zit een beagle bij inbegrepen. Puck is niet onderhandelbaar.</p>
         </div>
         <div class="post-actions">
-          <span class="post-action" onclick="showToast('❤️ You liked this')">♡ 1.2K</span>
-          <span class="post-action" onclick="showToast('💬 Slide into the DMs instead')">💬 89</span>
-          <span class="post-action" onclick="showToast('🔗 Share me with your single friends')">↗ Share</span>
+          <span class="post-action" onclick="showToast('❤️ Dit vind je leuk')">♡ 1.2K</span>
+          <span class="post-action" onclick="showToast('💬 Stuur liever een DM')">💬 89</span>
+          <span class="post-action" onclick="showToast('🔗 Deel me met je single vriendinnen')">↗ Deel</span>
         </div>
       </div>
 
-      <!-- Premium Post: Real Feelings -->
+      <!-- Premium Post: Echte Gevoelens -->
       <div class="post">
         <div class="post-header">
           <img src="assets/profile.jpg" alt="Vince" class="post-avatar">
           <div class="post-meta">
             <div class="post-author">
               Vince
-              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#00AFF0">
+              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#9b59b6">
                 <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
               </svg>
             </div>
-            <div class="post-time">5 hours ago</div>
+            <div class="post-time">5 uur geleden</div>
           </div>
           <span class="post-label premium">Premium</span>
         </div>
         <div class="post-body">
-          <p class="post-text blurred">Real talk. Behind the sarcasm is a guy who spent 13 years in the wrong relationship, did the work, built himself back up, and now knows exactly what he wants. I feel everything at 100% — my brain just needs a moment to translate it into words. Like emotional subtitles with a slight delay. When I'm safe with you, the delay disappears. Ask me about the kintsugi box and watch me...</p>
+          <p class="post-text blurred">Achter het sarcasme zit iemand die alles op volle sterkte voelt, maar even nodig heeft om het te vertalen naar woorden. Zoals ondertiteling met een kleine vertraging. Als ik me veilig voel bij je verdwijnt die vertraging. Dan krijg je de onbewerkte versie. Die is intenser dan de meeste mensen gewend zijn, maar ook eerlijker dan wat je ooit hebt meegemaakt.</p>
         </div>
         <div class="locked-overlay">
           <div class="lock-icon">🔒</div>
-          <div class="lock-text">The Soft Side — Viewer Discretion Advised 🥺</div>
-          <button class="unlock-btn" onclick="window.open('https://wa.me/31612960436?text=I%20want%20to%20unlock%20the%20premium%20content%20%F0%9F%94%93','_blank')">Unlock with a first date</button>
+          <div class="lock-text">De Zachte Kant — Kijkwijzer Aangeraden 🥺</div>
+          <button class="unlock-btn" onclick="window.open('https://wa.me/31612960436?text=Ik%20wil%20de%20premium%20content%20ontgrendelen%20%F0%9F%94%93','_blank')">Ontgrendel met een eerste date</button>
         </div>
         <div class="post-actions">
           <span class="post-action">♡ 2.4K</span>
           <span class="post-action">💬 156</span>
-          <span class="post-action">↗ Share</span>
+          <span class="post-action">↗ Deel</span>
         </div>
       </div>
 
@@ -157,166 +176,161 @@
           <div class="post-meta">
             <div class="post-author">
               Vince
-              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#00AFF0">
+              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#9b59b6">
                 <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
               </svg>
             </div>
-            <div class="post-time">8 hours ago</div>
+            <div class="post-time">8 uur geleden</div>
           </div>
-          <span class="post-label free">Free</span>
+          <span class="post-label free">Gratis</span>
         </div>
         <div class="post-body">
-          <p class="post-text">My dealbreakers: 🚫 You say one thing and mean another — I will take you literally and then we're both confused. My brain doesn't do subtext. It's a feature. 🚫 You ghost — I've had enough things disappear on me, don't be one of them 🚫 You weaponize vulnerability — what I share in bed stays in bed (emotionally AND physically 😏) 🚫 You play games — unless it's Mario Kart, then bring it 🚫 You hint instead of speak — babe, just say it, I promise I can handle direct</p>
+          <p class="post-text">Mijn dealbreakers: 🚫 Je zegt A en bedoelt B — ik neem je letterlijk en dan staan we allebei raar te kijken. Mijn brein doet geen ondertekst. Dat is een feature. 🚫 Je ghost — ik waardeer mensen die blijven, wees er eentje 🚫 Je gebruikt kwetsbaarheid als wapen — wat ik deel in vertrouwen blijft in vertrouwen 🚫 Je speelt spelletjes — tenzij het Mario Kart is, dan mag het 🚫 Je hint in plaats van praten — schat, zeg het gewoon, ik kan prima tegen direct</p>
         </div>
         <div class="post-actions">
-          <span class="post-action" onclick="showToast('❤️ You liked this')">♡ 634</span>
-          <span class="post-action" onclick="showToast('💬 Slide into the DMs instead')">💬 23</span>
-          <span class="post-action" onclick="showToast('🔗 Share me with your single friends')">↗ Share</span>
+          <span class="post-action" onclick="showToast('❤️ Dit vind je leuk')">♡ 634</span>
+          <span class="post-action" onclick="showToast('💬 Stuur liever een DM')">💬 23</span>
+          <span class="post-action" onclick="showToast('🔗 Deel me met je single vriendinnen')">↗ Deel</span>
         </div>
       </div>
 
-      <!-- Premium Post: What a Date Looks Like -->
+      <!-- Free Post: Vrijdagavond -->
       <div class="post">
         <div class="post-header">
           <img src="assets/profile.jpg" alt="Vince" class="post-avatar">
           <div class="post-meta">
             <div class="post-author">
               Vince
-              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#00AFF0">
+              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#9b59b6">
                 <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
               </svg>
             </div>
-            <div class="post-time">Yesterday</div>
+            <div class="post-time">10 uur geleden</div>
+          </div>
+          <span class="post-label free">Gratis</span>
+        </div>
+        <div class="post-body">
+          <p class="post-text">Ideale vrijdagavond? Kan beide kanten op: 🍷 Samen koken, wijn, muziek, per ongeluk te dicht bij elkaar staan bij het aanrecht OF 🛋️ Bank, deken, jouw hoofd op mijn borst, een film die we sowieso niet afkijken. Ik ben net zo blij met een goed restaurant als met afhaal in bed. Veelzijdigheid is mijn liefdetaal. Naast een paar andere dingen.</p>
+        </div>
+        <div class="post-actions">
+          <span class="post-action" onclick="showToast('❤️ Dit vind je leuk')">♡ 967</span>
+          <span class="post-action" onclick="showToast('💬 Stuur liever een DM')">💬 71</span>
+          <span class="post-action" onclick="showToast('🔗 Deel me met je single vriendinnen')">↗ Deel</span>
+        </div>
+      </div>
+
+      <!-- Premium Post: Hoe een date eruitziet -->
+      <div class="post">
+        <div class="post-header">
+          <img src="assets/profile.jpg" alt="Vince" class="post-avatar">
+          <div class="post-meta">
+            <div class="post-author">
+              Vince
+              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#9b59b6">
+                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+              </svg>
+            </div>
+            <div class="post-time">Gisteren</div>
           </div>
           <span class="post-label premium">Premium</span>
         </div>
         <div class="post-body">
-          <p class="post-text blurred">First date: somewhere with good food and enough noise that nobody hears us laughing too loud. I'll be nervously charming for about 10 minutes, then the real me comes out. If there's chemistry, I'll suggest a walk because I'm not ready for the night to end. If there's serious chemistry, well... I make very good breakfast 😏🍳</p>
+          <p class="post-text blurred">Eerste date: ergens met goed eten en genoeg achtergrondgeluid dat niemand hoort hoe hard we lachen. De eerste tien minuten ben ik zenuwachtig charmant, daarna komt de echte versie. Als het klikt stel ik een wandeling voor omdat ik niet wil dat de avond stopt. Als het echt klikt... ik maak heel goed ontbijt 😏🍳</p>
         </div>
         <div class="locked-overlay">
           <div class="lock-icon">🔒</div>
-          <div class="lock-text">What Happens After the First Date 👀</div>
-          <button class="unlock-btn" onclick="window.open('https://wa.me/31612960436?text=I%20want%20to%20unlock%20the%20premium%20content%20%F0%9F%94%93','_blank')">Unlock with a first date</button>
+          <div class="lock-text">Wat Er Na De Eerste Date Gebeurt 👀</div>
+          <button class="unlock-btn" onclick="window.open('https://wa.me/31612960436?text=Ik%20wil%20de%20premium%20content%20ontgrendelen%20%F0%9F%94%93','_blank')">Ontgrendel met een eerste date</button>
         </div>
         <div class="post-actions">
           <span class="post-action">♡ 1.8K</span>
           <span class="post-action">💬 94</span>
-          <span class="post-action">↗ Share</span>
+          <span class="post-action">↗ Deel</span>
         </div>
       </div>
 
-      <!-- Premium Post: The Dad Thing -->
+      <!-- Premium Post: Het vader-ding -->
       <div class="post">
         <div class="post-header">
           <img src="assets/profile.jpg" alt="Vince" class="post-avatar">
           <div class="post-meta">
             <div class="post-author">
               Vince
-              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#00AFF0">
+              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#9b59b6">
                 <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
               </svg>
             </div>
-            <div class="post-time">2 days ago</div>
+            <div class="post-time">2 dagen geleden</div>
           </div>
           <span class="post-label premium">Premium</span>
         </div>
         <div class="post-body">
-          <p class="post-text blurred">Yes, I have kids. Josefina and Benjamin — they're my masterpiece. No, they won't be on our first date. Yes, they come first. But here's what nobody tells you about dating a good dad: I already know how to be patient, present, and gentle. I can assemble IKEA furniture under pressure AND have a meaningful conversation about feelings. The dad bod is... actually not bad. The dad jokes are free. The bedtime stories are for subscribers only 😏</p>
+          <p class="post-text blurred">Ja, ik heb kinderen. Josefina en Benjamin — mijn meesterwerk. Nee, ze zijn niet bij onze eerste date. Ja, zij gaan voor. Maar wat niemand je vertelt over daten met een goede vader: ik kan al geduldig, aanwezig en zachtaardig zijn. Ik kan IKEA-meubels in elkaar zetten onder druk EN een diepgaand gesprek voeren over gevoelens. Het dad bod valt... eigenlijk best mee. De dad jokes zijn gratis. De bedtijdverhalen zijn voor subscribers 😏</p>
         </div>
         <div class="locked-overlay">
           <div class="lock-icon">🔒</div>
-          <div class="lock-text">The DILF Manifesto</div>
-          <button class="unlock-btn" onclick="window.open('https://wa.me/31612960436?text=I%20want%20to%20unlock%20the%20premium%20content%20%F0%9F%94%93','_blank')">Unlock with a first date</button>
+          <div class="lock-text">Het DILF Manifesto</div>
+          <button class="unlock-btn" onclick="window.open('https://wa.me/31612960436?text=Ik%20wil%20de%20premium%20content%20ontgrendelen%20%F0%9F%94%93','_blank')">Ontgrendel met een eerste date</button>
         </div>
         <div class="post-actions">
           <span class="post-action">♡ 3.1K</span>
           <span class="post-action">💬 412</span>
-          <span class="post-action">↗ Share</span>
+          <span class="post-action">↗ Deel</span>
         </div>
       </div>
 
-      <!-- Free Post: Friday Night Options -->
+      <!-- Premium Post: Boyfriend Changelog -->
       <div class="post">
         <div class="post-header">
           <img src="assets/profile.jpg" alt="Vince" class="post-avatar">
           <div class="post-meta">
             <div class="post-author">
               Vince
-              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#00AFF0">
+              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#9b59b6">
                 <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
               </svg>
             </div>
-            <div class="post-time">3 days ago</div>
-          </div>
-          <span class="post-label free">Free</span>
-        </div>
-        <div class="post-body">
-          <p class="post-text">Ideal Friday night? Could go either way: 🍷 Cooking together, wine, music, accidentally standing too close to each other at the counter OR 🛋️ Couch, blanket, your head on my chest, a movie we're definitely not finishing. I'm equally happy with a fancy restaurant or takeout in bed. Versatility is my love language. Among other things.</p>
-        </div>
-        <div class="post-actions">
-          <span class="post-action" onclick="showToast('❤️ You liked this')">♡ 967</span>
-          <span class="post-action" onclick="showToast('💬 Slide into the DMs instead')">💬 71</span>
-          <span class="post-action" onclick="showToast('🔗 Share me with your single friends')">↗ Share</span>
-        </div>
-      </div>
-
-      <!-- Premium Post: Why I'm Single -->
-      <div class="post">
-        <div class="post-header">
-          <img src="assets/profile.jpg" alt="Vince" class="post-avatar">
-          <div class="post-meta">
-            <div class="post-author">
-              Vince
-              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#00AFF0">
-                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
-              </svg>
-            </div>
-            <div class="post-time">4 days ago</div>
+            <div class="post-time">4 dagen geleden</div>
           </div>
           <span class="post-label premium">Premium</span>
         </div>
         <div class="post-body">
-          <p class="post-text blurred">Why am I single? Because I spent 13 years in a relationship that taught me exactly what I don't want. Took the time to actually heal instead of rebounding into someone's DMs. Did the work. Wrote a literal database about my own patterns (yes, with classifications — my brain works like that, it's charming once you get used to it). Now I'm that rare thing: a man in his 40s who actually knows himself, has processed his baggage, and is genuinely ready. The bar is in hell. I'm in the penthouse. Come visit 😏</p>
+          <p class="post-text blurred">CHANGELOG v46.0 — Vriendje Editie. Nieuwe features: actieve luistermodus, big spoon EN little spoon gecertificeerd, onthoudt je koffiebestelling na één keer horen, geeft complimenten die specifiek zijn in plaats van generiek, rugmassages die daadwerkelijk ergens toe leiden. Bug fixes: module "emotioneel onbeschikbaar" verwijderd, "antwoordt 3 dagen later" gepatcht naar "antwoordt meteen omdat hij toch al aan je dacht", commitment-fobie memory leak opgelost. Bekende eigenaardigheden: legt per ongeluk systeemarchitectuur uit tijdens pillow talk. Dit is een feature, geen bug.</p>
         </div>
         <div class="locked-overlay">
           <div class="lock-icon">🔒</div>
-          <div class="lock-text">Why This Man Is Still Available — Investigators Baffled</div>
-          <button class="unlock-btn" onclick="window.open('https://wa.me/31612960436?text=I%20want%20to%20unlock%20the%20premium%20content%20%F0%9F%94%93','_blank')">Unlock with a first date</button>
-        </div>
-        <div class="post-actions">
-          <span class="post-action">♡ 4.7K</span>
-          <span class="post-action">💬 283</span>
-          <span class="post-action">↗ Share</span>
-        </div>
-      </div>
-
-      <!-- Premium Post: Boyfriend Features -->
-      <div class="post">
-        <div class="post-header">
-          <img src="assets/profile.jpg" alt="Vince" class="post-avatar">
-          <div class="post-meta">
-            <div class="post-author">
-              Vince
-              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#00AFF0">
-                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
-              </svg>
-            </div>
-            <div class="post-time">1 week ago</div>
-          </div>
-          <span class="post-label premium">Premium</span>
-        </div>
-        <div class="post-body">
-          <p class="post-text blurred">CHANGELOG v46.0 — Boyfriend Edition. New features: Active listening mode, big spoon AND little spoon certified, remembers your coffee order after hearing it once, gives compliments that are specific not generic, back massages that actually go somewhere. Bug fixes: Removed "emotionally unavailable" module, patched "replies 3 days later" to "replies immediately because he was already thinking about you", fixed commitment-phobia memory leak. Known quirks: Will accidentally explain systems architecture during pillow talk because his brain doesn't have an off switch. This is a feature, not a bug.</p>
-        </div>
-        <div class="locked-overlay">
-          <div class="lock-icon">🔒</div>
-          <div class="lock-text">Boyfriend v46.0 — Full Changelog 🛏️</div>
-          <button class="unlock-btn" onclick="window.open('https://wa.me/31612960436?text=I%20want%20to%20unlock%20the%20premium%20content%20%F0%9F%94%93','_blank')">Unlock with a first date</button>
+          <div class="lock-text">Boyfriend v46.0 — Volledige Changelog 🛏️</div>
+          <button class="unlock-btn" onclick="window.open('https://wa.me/31612960436?text=Ik%20wil%20de%20premium%20content%20ontgrendelen%20%F0%9F%94%93','_blank')">Ontgrendel met een eerste date</button>
         </div>
         <div class="post-actions">
           <span class="post-action">♡ 1.5K</span>
           <span class="post-action">💬 67</span>
-          <span class="post-action">↗ Share</span>
+          <span class="post-action">↗ Deel</span>
+        </div>
+      </div>
+
+      <!-- Free Post: Wat ik bouw als ik niet hier ben -->
+      <div class="post">
+        <div class="post-header">
+          <img src="assets/profile.jpg" alt="Vince" class="post-avatar">
+          <div class="post-meta">
+            <div class="post-author">
+              Vince
+              <svg class="verified" viewBox="0 0 24 24" width="14" height="14" fill="#9b59b6">
+                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+              </svg>
+            </div>
+            <div class="post-time">1 week geleden</div>
+          </div>
+          <span class="post-label free">Gratis</span>
+        </div>
+        <div class="post-body">
+          <p class="post-text">Plot twist: als ik niet bezig ben met premium vriendje-content, bouw ik dingen. Al bijna 30 jaar. Software, teams, architectuur — het soort werk waar je het over hebt op feestjes en mensen glazig naar je kijken. Ik help bedrijven die vastlopen: code die niemand meer snapt, teams die langs elkaar heen werken, AI die meer belooft dan het levert. Ik duik erin, zie wat anderen missen, en zorg dat het werkt. Eigenlijk precies wat ik ook in relaties doe, maar dan betaald. Nieuwsgierig? <a href="https://www.vincability.com/" target="_blank" rel="noopener" style="color:#e67e22;">vincability.com</a></p>
+        </div>
+        <div class="post-actions">
+          <span class="post-action" onclick="showToast('❤️ Dit vind je leuk')">♡ 312</span>
+          <span class="post-action" onclick="showToast('💬 Stuur liever een DM')">💬 18</span>
+          <span class="post-action" onclick="showToast('🔗 Deel me met je single vriendinnen')">↗ Deel</span>
         </div>
       </div>
 
@@ -324,8 +338,8 @@
 
     <!-- Footer -->
     <div class="site-footer">
-      <p>© 2026 OnlyVince. All rights reserved. *Red flag count may not reflect reality. Terms and conditions apply. No refunds on emotional attachment.</p>
-      <p style="margin-top:6px;">Built with ❤️, post-divorce energy, and an alarming amount of self-awareness</p>
+      <p>&copy; 2026 OnlyVince. Alle rechten voorbehouden. *Aantal red flags komt mogelijk niet overeen met de werkelijkheid. Voorwaarden van toepassing. Geen restitutie op emotionele gehechtheid.</p>
+      <p style="margin-top:6px;">Gebouwd met ❤️, nieuwe energie, en een verontrustende hoeveelheid zelfkennis</p>
     </div>
 
   </div>

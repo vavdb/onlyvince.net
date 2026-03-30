@@ -29,18 +29,8 @@ a {
 /* Cover Banner */
 .cover {
   height: 200px;
-  background: linear-gradient(135deg, #9b59b6 0%, #e74c3c 40%, #e67e22 70%, #0b0b0b 100%);
+  background: linear-gradient(135deg, #00AFF0 0%, #004d6e 60%, #0b0b0b 100%);
   position: relative;
-  overflow: hidden;
-}
-
-.cover svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.15;
 }
 
 /* Profile Section */
@@ -70,7 +60,7 @@ a {
 }
 
 .verified {
-  color: #9b59b6;
+  color: #00AFF0;
   font-size: 16px;
 }
 
@@ -85,14 +75,6 @@ a {
   font-size: 14px;
   margin-top: 10px;
   line-height: 1.5;
-}
-
-.profile-bio .fine-print {
-  display: block;
-  margin-top: 6px;
-  font-size: 11px;
-  color: #555;
-  font-style: italic;
 }
 
 /* Stats Row */
@@ -117,8 +99,8 @@ a {
 }
 
 .social-link {
-  background: rgba(155, 89, 182, 0.12);
-  color: #c9a0dc;
+  background: #1a1a2e;
+  color: #00AFF0;
   padding: 6px 14px;
   border-radius: 20px;
   font-size: 13px;
@@ -130,7 +112,7 @@ a {
 }
 
 .social-link:hover {
-  background: rgba(155, 89, 182, 0.22);
+  background: #252540;
   transform: translateY(-1px);
 }
 
@@ -140,23 +122,13 @@ a {
   fill: currentColor;
 }
 
-.social-link.accent {
-  background: rgba(230, 126, 34, 0.15);
-  color: #e67e22;
-  border: 1px solid rgba(230, 126, 34, 0.25);
-}
-
-.social-link.accent:hover {
-  background: rgba(230, 126, 34, 0.25);
-}
-
 /* Subscribe Button */
 .subscribe-btn {
   display: block;
   width: 100%;
   margin-top: 16px;
   padding: 14px;
-  background: linear-gradient(135deg, #9b59b6, #e74c3c, #e67e22);
+  background: #00AFF0;
   color: #fff;
   border: none;
   border-radius: 24px;
@@ -166,11 +138,11 @@ a {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  transition: opacity 0.2s, transform 0.1s;
+  transition: background 0.2s, transform 0.1s;
 }
 
 .subscribe-btn:hover {
-  opacity: 0.9;
+  background: #009dd8;
   transform: translateY(-1px);
 }
 
@@ -198,7 +170,7 @@ a {
 }
 
 .tab.active {
-  color: #9b59b6;
+  color: #00AFF0;
 }
 
 .tab.active::after {
@@ -208,7 +180,7 @@ a {
   left: 20%;
   right: 20%;
   height: 2px;
-  background: #9b59b6;
+  background: #00AFF0;
   border-radius: 2px;
 }
 
@@ -278,8 +250,8 @@ a {
 }
 
 .post-label.premium {
-  background: rgba(230, 126, 34, 0.12);
-  color: #e67e22;
+  background: #2e1a1a;
+  color: #ff6b6b;
 }
 
 .post-body {
@@ -320,9 +292,9 @@ a {
 }
 
 .locked-overlay .unlock-btn {
-  background: rgba(155, 89, 182, 0.12);
-  color: #9b59b6;
-  border: 1px solid rgba(155, 89, 182, 0.25);
+  background: rgba(0, 175, 240, 0.15);
+  color: #00AFF0;
+  border: 1px solid rgba(0, 175, 240, 0.3);
   padding: 8px 24px;
   border-radius: 20px;
   font-size: 13px;
@@ -333,7 +305,7 @@ a {
 }
 
 .locked-overlay .unlock-btn:hover {
-  background: rgba(155, 89, 182, 0.25);
+  background: rgba(0, 175, 240, 0.25);
 }
 
 /* Post Actions */
@@ -354,18 +326,18 @@ a {
 }
 
 .post-action:hover {
-  color: #9b59b6;
+  color: #00AFF0;
 }
 
 /* Pinned Post */
 .post.pinned {
-  border-color: rgba(155, 89, 182, 0.3);
+  border-color: #00AFF0;
   border-width: 1px;
 }
 
 .pinned-badge {
   font-size: 11px;
-  color: #9b59b6;
+  color: #00AFF0;
   display: flex;
   align-items: center;
   gap: 4px;
@@ -384,7 +356,7 @@ a {
 }
 
 .site-footer a {
-  color: #9b59b6;
+  color: #00AFF0;
 }
 
 /* Toast notification */
@@ -394,10 +366,10 @@ a {
   left: 50%;
   transform: translateX(-50%) translateY(100px);
   background: #1a1a2e;
-  color: #9b59b6;
+  color: #00AFF0;
   padding: 12px 24px;
   border-radius: 12px;
-  border: 1px solid #9b59b6;
+  border: 1px solid #00AFF0;
   font-size: 14px;
   font-weight: 500;
   opacity: 0;
